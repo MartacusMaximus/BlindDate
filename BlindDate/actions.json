@@ -62,12 +62,16 @@
     {
       "name": "/actions/buggy/in/Reset",
       "type": "boolean"
+    },
+    {
+      "name": "/actions/BlindDate/in/Draw",
+      "type": "boolean"
     }
   ],
   "action_sets": [
     {
       "name": "/actions/default",
-      "usage": "single"
+      "usage": "leftright"
     },
     {
       "name": "/actions/platformer",
@@ -76,6 +80,10 @@
     {
       "name": "/actions/buggy",
       "usage": "single"
+    },
+    {
+      "name": "/actions/BlindDate",
+      "usage": "leftright"
     }
   ],
   "default_bindings": [
@@ -112,7 +120,8 @@
       "/actions/buggybuddy/in/Brake": "Brake",
       "/actions/buggybuddy/in/Reset": "Reset",
       "/actions/platformer/in/Move": "Move",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/BlindDate/in/Draw": "draw"
     }
   ]
 }

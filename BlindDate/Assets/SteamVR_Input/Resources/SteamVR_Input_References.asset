@@ -11,7 +11,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d10323487cb44348b830bc017eb40b4, type: 3}
   m_Name: SteamVR_Input_References
   m_EditorClassIdentifier: 
-  actionSetNames: []
-  actionSetObjects: []
-  actionNames: []
-  actionObjects: []
+  actionSetNames:
+  - _default
+  - platformer
+  - buggy
+  - BlindDate
+  actionSetObjects:
+  - {fileID: 11400000, guid: 024392f97533dbf48966238ee937be98, type: 2}
+  - {fileID: 11400000, guid: 2dcc163bafc1bcc4ba43b771822d3659, type: 2}
+  - {fileID: 11400000, guid: 6c2c5fed7de9f2044b26c652a552e9fc, type: 2}
+  - {fileID: 11400000, guid: 1739280973b158945806cb46d4a25ba0, type: 2}
+  actionNames:
+  - __actions_default_in_InteractUI
+  - __actions_default_in_Teleport
+  - __actions_default_in_GrabPinch
+  - __actions_default_in_GrabGrip
+  - __actions_default_in_Pose
+  - __actions_default_in_SkeletonLeftHand
+  - __actions_default_in_SkeletonRightHand
+  - __actions_default_in_Squeeze
+  - __actions_default_out_Haptic
+  - __actions_platformer_in_Move
+  - __actions_platformer_in_Jump
+  - __actions_buggy_in_Steering
+  - __actions_buggy_in_Throttle
+  - __actions_buggy_in_Brake
+  - __actions_buggy_in_Reset
+  - __actions_BlindDate_in_Draw
+  actionObjects:
+  - {fileID: 11400000, guid: 5e7c699665eb2904f84c96bcd24bf9ee, type: 2}
+  - {fileID: 11400000, guid: af00b906a1e05f1498139b1d1cd0f150, type: 2}
+  - {fileID: 11400000, guid: 9fc5bbf873b6d774e98c0e3ff1b4ac4a, type: 2}
+  - {fileID: 11400000, guid: 0fbc0100606d3e84b9c3c8188717c496, type: 2}
+  - {fileID: 11400000, guid: 649b57f230ee0374b99bcf29de5c0458, type: 2}
+  - {fileID: 11400000, guid: 1ff025ab201678e41a0b58bd2a776bcf, type: 2}
+  - {fileID: 11400000, guid: 85a8c3e3875d38446b72bb63c7235cb7, type: 2}
+  - {fileID: 11400000, guid: 6988c75fc927da643bdf8aa3377d9c2e, type: 2}
+  - {fileID: 11400000, guid: 1d06376a63e016e4e974d2b3ba29b150, type: 2}
+  - {fileID: 11400000, guid: 164d08c1b2c0c7b4088c6b1707d5dd45, type: 2}
+  - {fileID: 11400000, guid: e5b1a343483c72d4594824bbe3bf470d, type: 2}
+  - {fileID: 11400000, guid: 3af65c2b1bea4bf4893c67a3ba6277cc, type: 2}
+  - {fileID: 11400000, guid: 7c4b16e77f286e14e81528a397adbfef, type: 2}
+  - {fileID: 11400000, guid: e78bd62bfbeb7b14fb2e731cce2785dc, type: 2}
+  - {fileID: 11400000, guid: dc8c79fb15f339e469f6d215b817e32b, type: 2}
+  - {fileID: 11400000, guid: 9f2e3e2f9ef5cfc4fa8d10bd8d95266c, type: 2}
