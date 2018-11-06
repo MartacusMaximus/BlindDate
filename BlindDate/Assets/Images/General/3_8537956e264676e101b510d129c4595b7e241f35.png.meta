@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 54d149fecaf408f43b9762f348b1fdc2
+=======
+guid: f24a39a0b8f3028459b5b0dd8f94b8a8
+>>>>>>> Stashed changes
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}

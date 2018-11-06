@@ -14,10 +14,10 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - CameraFeed
-  - 
-  - 
-  - 
+  - CameraFeedL
+  - CameraFeedR
+  - LeftEye
+  - RightEye
   - 
   - 
   - 

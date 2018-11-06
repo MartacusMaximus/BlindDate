@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class WebcamTex : MonoBehaviour
+public class WebcamTexR : MonoBehaviour
 {
     void Start()
     {
