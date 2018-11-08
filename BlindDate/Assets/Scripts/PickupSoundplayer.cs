@@ -6,8 +6,6 @@ public class PlayerPickup : MonoBehaviour
 {
     private GameObject pickedupObject;
     private Rigidbody pickedupRigidbody;
-    public AudioClip collectSound;
-
     // Use this for initialization
     void Start()
     {

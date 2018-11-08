@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Expand : MonoBehaviour {
 
+    public float timer;
     bool Expanding = false;
-    float timer = 0.2f;
+    float timerrestart;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+        timerrestart = timer;
 	}
 	
 	// Update is called once per frame
@@ -24,8 +26,7 @@ public class Expand : MonoBehaviour {
         else
         {
             Expanding = false;
-            timer = 0.2f;
+            timer = timerrestart;
         }
-		
-	}
+    }
 }

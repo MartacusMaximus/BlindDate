@@ -8,6 +8,7 @@ public class Balloon : MonoBehaviour
     public GameObject ballonPrefab;
     public Vector3 location;
     bool Create = false;
+    private float time;
     // Use this for initialization
     void Start()
     {
@@ -28,6 +29,7 @@ public class Balloon : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
+            time++;
             Create = false;
         }
     }
