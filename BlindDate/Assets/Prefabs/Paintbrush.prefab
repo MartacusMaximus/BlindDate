@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4387071551725256}
+  - component: {fileID: 114449469902211580}
   m_Layer: 0
   m_Name: Paintbrush
   m_TagString: Untagged
@@ -32,10 +33,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1588175050651934}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.83841264, y: 1.2850568, z: -0.90717673}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114449469902211580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588175050651934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c99254af55b7d46890c1a7fce536cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stroke: {fileID: 1467835609474968, guid: 6bc8733805902bd408932e78fb3b3e7e, type: 2}
+  refreshRate: 2
+  drawAction: {fileID: 11400000, guid: e64de30cea9e8d04d99893783233c778, type: 2}

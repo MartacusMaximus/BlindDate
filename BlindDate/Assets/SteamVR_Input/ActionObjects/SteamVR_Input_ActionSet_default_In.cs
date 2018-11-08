@@ -32,5 +32,11 @@ namespace Valve.VR
         public Valve.VR.SteamVR_Action_Skeleton SkeletonRightHand;
         
         public Valve.VR.SteamVR_Action_Single Squeeze;
+        
+        public Valve.VR.SteamVR_Action_Boolean Paint;
+        
+        public Valve.VR.SteamVR_Action_Boolean Grab;
+        
+        public Valve.VR.SteamVR_Action_Boolean BlowBalloon;
     }
 }

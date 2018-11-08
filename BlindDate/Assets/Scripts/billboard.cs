@@ -20,7 +20,7 @@ public class billboard : MonoBehaviour {
 	//	angle.z = 0;
 		transform.rotation = target.transform.rotation;
 		timer++;
-		if (timer == 90)
+		if (timer == 10800) //two minutes destroy timer
 		{
 			Destroy (gameObject);
 		}
