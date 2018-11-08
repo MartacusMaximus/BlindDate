@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114277908373668256}
   - component: {fileID: 54564373863137894}
   - component: {fileID: 114057468010534548}
+  - component: {fileID: 114240850267338430}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Untagged
@@ -86,7 +87,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1809816067930872}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: 8c0fbd56181ea0843b1596b4cb0e5498, type: 3}
 --- !u!54 &54564373863137894
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -113,7 +114,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3ae9ddd5337bb4d82e623fcf46f0d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
+  timer: 0.5
+  balloonAction: {fileID: 11400000, guid: adf9417ac982264458cedbd25dd909bd, type: 2}
+--- !u!114 &114240850267338430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809816067930872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b567fdb8003af140a4c74e759eec6d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatStrength: 0.2
 --- !u!114 &114277908373668256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -135,5 +149,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.15
   m_Center: {x: 0, y: 0, z: 0}
