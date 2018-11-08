@@ -48,6 +48,10 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/SpawnBall",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     }
@@ -96,7 +100,8 @@
       "/actions/BlindDate/in/Draw": "draw",
       "/actions/default/in/Paint": "Paint",
       "/actions/default/in/Grab": "Grab",
-      "/actions/default/in/BlowBalloon": "Blow Balloon"
+      "/actions/default/in/BlowBalloon": "Blow Balloon",
+      "/actions/default/in/SpawnBall": "Spawn Ball"
     }
   ]
 }

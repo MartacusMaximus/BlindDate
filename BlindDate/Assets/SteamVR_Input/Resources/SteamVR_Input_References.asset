@@ -27,6 +27,7 @@ MonoBehaviour:
   - __actions_default_in_Paint
   - __actions_default_in_Grab
   - __actions_default_in_BlowBalloon
+  - __actions_default_in_SpawnBall
   - __actions_default_out_Haptic
   actionObjects:
   - {fileID: 11400000, guid: 5e7c699665eb2904f84c96bcd24bf9ee, type: 2}
@@ -40,4 +41,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e64de30cea9e8d04d99893783233c778, type: 2}
   - {fileID: 11400000, guid: 096a0019a0bd3264ca3f9fbb48304e02, type: 2}
   - {fileID: 11400000, guid: adf9417ac982264458cedbd25dd909bd, type: 2}
+  - {fileID: 11400000, guid: ecad9e5a8595ae542aee319d27009f7f, type: 2}
   - {fileID: 11400000, guid: 1d06376a63e016e4e974d2b3ba29b150, type: 2}

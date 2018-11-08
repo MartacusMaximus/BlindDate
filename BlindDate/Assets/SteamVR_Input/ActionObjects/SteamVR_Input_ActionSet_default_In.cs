@@ -38,5 +38,7 @@ namespace Valve.VR
         public Valve.VR.SteamVR_Action_Boolean Grab;
         
         public Valve.VR.SteamVR_Action_Boolean BlowBalloon;
+        
+        public Valve.VR.SteamVR_Action_Boolean SpawnBall;
     }
 }

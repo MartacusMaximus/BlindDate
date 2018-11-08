@@ -2,40 +2,36 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickMove : MonoBehaviour {
+namespace Valve.VR.InteractionSystem.Sample
+{
+	public class ClickMove : MonoBehaviour {
 
-	float distance = 1.25f;
-	public AudioClip TestSound;
-	//bool isPlaying = false;
 
-	void OnMouseDrag () {
-		Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, distance);
-		Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-		transform.position = objPosition;
 
-			//if (isPlaying != true) {
-			//	AudioSource.PlayClipAtPoint (TestSound, transform.position);
-			//	isPlaying = true;
-		//	} 
-		//	else
-		//	{
-		//		isPlaying = false;
-		//	}
+		float distance = 1.25f;
+		public AudioClip TestSound;
 
-	}
-	public class OnMouseOverExample : MonoBehaviour
-	{
-		void OnMouseOver()
+		public SteamVR_Action_Boolean Pickup;
+
+		void Update () 
 		{
-			//If your mouse hovers over the GameObject with the script attached, output this message
-			Debug.Log("Mouse is over GameObject.");
+			if (Pickup.GetState(SteamVR_Input_Sources.Any))
+			{
+
+				Vector3 pos = GameObject.Find("Controller (right)").transform.position;
+				Quaternion rot = GameObject.Find("Controller (right)").transform.rotation;
+				transform.position = pos;
+				transform.rotation = rot;
+			}
 		}
 
-		void OnMouseExit()
-		{
-			//The mouse is no longer hovering over the GameObject so output this message each frame
-			Debug.Log("Mouse is no longer on GameObject.");
+
+		void OnMouseDrag () {
+			Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, distance);
+			Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+			transform.position = objPosition;
+
+			}
 
 		}
 	}
-}
