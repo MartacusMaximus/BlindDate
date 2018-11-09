@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SizeChange : MonoBehaviour {
 
+	public float changeRate;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,11 +15,11 @@ public class SizeChange : MonoBehaviour {
 	void Update () {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            gameObject.transform.localScale += new Vector3(0.01f, 0.01f, 0);
+			gameObject.transform.localScale += new Vector3(changeRate, changeRate, 0);
         }
         else if (Input.GetKey(KeyCode.DownArrow) && (gameObject.transform.localScale.x > 0) )
         {
-            gameObject.transform.localScale += new Vector3(-0.01f, -0.01f, 0);
+			gameObject.transform.localScale += new Vector3(-changeRate, -changeRate, 0);
         }
     }
 }
